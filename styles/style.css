@@ -23,8 +23,10 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #000001;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 header img {
@@ -56,7 +58,7 @@ header img {
     text-decoration: underline;
     text-decoration-color: #fffff1;
     text-underline-offset: 5px;
-    transform: translateY(-3px) scale(1.1);
+    transform: translateY(-3px) scale(1.02);
 }
 
 #ham-burger {
